@@ -6,6 +6,7 @@
   --bg-color-button: #f5f4fa;
   --hero-bg-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -229,6 +230,7 @@ address {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
+
 .employees-soc-list {
   display: flex;
   justify-content: center;
@@ -246,10 +248,23 @@ address {
 .employees-soc-link {
   width: 100%;
   height: 100%;
-  background-color: var(--acent-color);
-
   border-radius: 50%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.employees-soc-icon {
+  fill: var(--icon-color);
+}
+
+.employees-soc-link:hover,
+.employees-soc-link:focus {
+  background-color: var(--acent-color);
+}
+
+.employees-soc-link:hover .employees-soc-icon,
+.employees-soc-link:focus .employees-soc-icon {
+  fill: var(--primary-bg-color);
 }
 
 .team-list {
