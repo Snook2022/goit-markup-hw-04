@@ -564,3 +564,9 @@ address {
 .page-footer .container {
   display: flex;
 }
+.footer-div .logo {
+  margin-right: 0;
+}
+.footer-div {
+  margin-right: 70px;
+}
