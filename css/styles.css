@@ -543,7 +543,7 @@ address {
 }
 
 .footer-soc-icon {
-  fill: var(--icon-color);
+  fill: var(--primary-bg-color);
 }
 
 .footer-soc-link:hover,
@@ -551,10 +551,6 @@ address {
   background-color: var(--acent-color);
 }
 
-.footer-soc-link:hover .footer-soc-icon,
-.footer-soc-link:focus .footer-soc-icon {
-  fill: var(--primary-bg-color);
-}
 .footer-soc-title {
   margin-bottom: 20px;
 
