@@ -565,3 +565,6 @@ address {
   text-transform: uppercase;
   color: #ffffff;
 }
+.page-footer .container {
+  display: flex;
+}
