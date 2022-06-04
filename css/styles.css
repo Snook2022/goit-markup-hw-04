@@ -160,6 +160,7 @@ address {
 /* hero */
 .hero {
   max-width: 1600px;
+  height: 600px;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -502,7 +503,6 @@ address {
   background-color: var(--hero-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
 }
 .page-footer .logo {
   display: block;
@@ -514,10 +514,6 @@ address {
 .contacts-footer-list .link-footer:hover,
 .contacts-footer-list .link-footer:focus {
   color: var(--acent-color);
-}
-
-.footer-soc {
-  margin-top: 12px;
 }
 
 .footer-soc-list {
@@ -563,6 +559,7 @@ address {
 }
 .page-footer .container {
   display: flex;
+  align-items: baseline;
 }
 .footer-div .logo {
   margin-right: 0;
